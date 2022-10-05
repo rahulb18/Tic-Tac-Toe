@@ -22,10 +22,6 @@ const Game = () => {
         setXisNext(!xIsNext);
     }
 
-    const jumpTo = ()=> {
-
-    }
-
     const renderMoves = ()=> {
         return (
             <div>
@@ -34,7 +30,6 @@ const Game = () => {
             
         )
     }
-    console.log(board.length);
 
   return (
     <>
